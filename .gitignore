@@ -4,3 +4,6 @@
 target/
 .metadata
 .DS_Store
+
+### IntelliJ IDEA ###
+.idea/

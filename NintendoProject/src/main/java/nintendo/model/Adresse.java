@@ -1,11 +1,11 @@
 package nintendo.model;
 
-public class adresse {
+public class Adresse {
 
 	protected int numero;
 	protected String rue;
 	protected String ville;
-	public adresse(int numero, String rue, String ville) {
+	public Adresse(int numero, String rue, String ville) {
 		this.numero = numero;
 		this.rue = rue;
 		this.ville = ville;

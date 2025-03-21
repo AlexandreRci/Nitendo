@@ -1,5 +1,6 @@
 package nintendo.test;
 
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -28,12 +29,13 @@ public class Test {
 		
 		Boutique bt = new Boutique("Micromania", a1);
 		
-		
+       
 		Jeu marioKartDs = new Jeu("Mario Kart", ds, bt);
 		Jeu marioKartWii = new Jeu("Mario Kart", wii, bt);
 		Jeu marioBros = new Jeu("Mario Bros", ds, bt);
 		Jeu farCry = new Jeu("Far Cry 4", play4, bt);
 		Jeu eldenRing = new Jeu("Elden Ring", pc, bt);
+
 
 		List<Achat> listeAchat1 = new ArrayList();
 		List<Achat> listeAchat2 = new ArrayList();

@@ -2,9 +2,9 @@ package nintendo.model;
 
 public class Adresse {
 
-	protected int numero;
-	protected String rue;
-	protected String ville;
+	private int numero;
+	private String rue;
+	private String ville;
 	public Adresse(int numero, String rue, String ville) {
 		this.numero = numero;
 		this.rue = rue;

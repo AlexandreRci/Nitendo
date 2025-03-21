@@ -1,5 +1,7 @@
 package nintendo.test;
 
+import nintendo.model.Adresse;
+import nintendo.model.Boutique;
 import nintendo.model.Console;
 import nintendo.model.Jeu;
 
@@ -12,11 +14,15 @@ public class Test {
 		Console wii = new Console("Wii");
 		Console pc = new Console("PC");
 		
-		Jeu marioKartDs = new Jeu("Mario Kart", ds);
-		Jeu marioKartWii = new Jeu("Mario Kart", wii);
-		Jeu marioBros = new Jeu("Mario Bros", ds);
-		Jeu farCry = new Jeu("Far Cry 4", play4);
-		Jeu eldenRing = new Jeu("Elden Ring", pc);
+		Adresse a1 = new Adresse(20, "rue de Paris", "Paris");
+		
+		Boutique bt = new Boutique("Micromania", a1);
+		
+		Jeu marioKartDs = new Jeu("Mario Kart", ds, bt);
+		Jeu marioKartWii = new Jeu("Mario Kart", wii, bt);
+		Jeu marioBros = new Jeu("Mario Bros", ds, bt);
+		Jeu farCry = new Jeu("Far Cry 4", play4, bt);
+		Jeu eldenRing = new Jeu("Elden Ring", pc, bt);
 
 	}
 

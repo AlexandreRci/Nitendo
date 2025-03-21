@@ -3,16 +3,19 @@ package nintendo.test;
 import nintendo.model.Adresse;
 import nintendo.model.Boutique;
 import nintendo.model.Console;
+import nintendo.model.Hybride;
 import nintendo.model.Jeu;
+import nintendo.model.Portable;
+import nintendo.model.Salon;
 
 public class Test {
 
 	public static void main(String[] args) {
 		
-		Console ds = new Console("DS");
-		Console play4 = new Console("Play4");
-		Console wii = new Console("Wii");
-		Console pc = new Console("PC");
+		Console ds = new Portable("DS");
+		Console play4 = new Salon("Play4");
+		Console wii = new Salon("Wii");
+		Console pc = new Hybride("PC");
 		
 		Adresse a1 = new Adresse(20, "rue de Paris", "Paris");
 		

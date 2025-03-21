@@ -8,10 +8,10 @@ public class Test {
 
     public static void main(String[] args) {
 
-        Console ds = new Portable("DS");
-        Console play4 = new Salon("Play4");
-        Console wii = new Salon("Wii");
-        Console pc = new Hybride("PC");
+        Console ds = new Portable("DS",100,LocalDate.of(1,11,2004));
+        Console play4 = new Salon("Play4",100,LocalDate.of(1,11,2004));
+        Console wii = new Salon("Wii",100,LocalDate.of(1,11,2004));
+        Console pc = new Hybride("PC",500,LocalDate.of(1,11,2004));
 
 		Boutique boutique = new Boutique("Micromaniac", new Adresse(1,"Mouffetard", "Paris"));
 

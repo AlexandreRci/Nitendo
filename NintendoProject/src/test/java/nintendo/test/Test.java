@@ -21,10 +21,10 @@ public class Test {
 
     public static void main(String[] args) {
 
-        Console ds = new Portable("DS",100,LocalDate.of(1,11,2004));
-        Console play4 = new Salon("Play4",100,LocalDate.of(1,11,2004));
-        Console wii = new Salon("Wii",100,LocalDate.of(1,11,2004));
-        Console pc = new Hybride("PC",500,LocalDate.of(1,11,2004));
+        Console ds = new Portable("DS",100,LocalDate.of(2004,11,04));
+        Console play4 = new Salon("Play4",100,LocalDate.of(2004,11,04));
+        Console wii = new Salon("Wii",100,LocalDate.of(2004,11,04));
+        Console pc = new Hybride("PC",500,LocalDate.of(2004,11,04));
 
 		Adresse a1 = new Adresse(20, "rue de Paris", "Paris");
 		Boutique bt = new Boutique("Micromania", a1);
